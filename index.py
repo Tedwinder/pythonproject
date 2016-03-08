@@ -1,3 +1,12 @@
+
+from flask import Flask
+import os
+
+app = Flask(__name__)
+
+
+@app.route('/')
+
 #list o' classes
 c14554 = {
 	"name": "c14554",
