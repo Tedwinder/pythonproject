@@ -16,7 +16,6 @@ def printTable(tableData):
         for col in range(len(tableData)):
             print(tableData[col][row])
         print("")
-            
 
 tableData = [['apples', 'oranges', 'cherries', 'banana'], ['Alice', 'Bob', 'Carol', 'David']]
 printTable(tableData)
