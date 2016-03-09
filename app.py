@@ -14,7 +14,7 @@ def printTable(tableData):
                 colWidths[col] = len(tableData[col][row])
     for row in range(len(tableData[0])):
         for col in range(len(tableData)):
-            print(tableData[col][row], end = "\t")
+            print(tableData[col][row])
         print("")
             
 
