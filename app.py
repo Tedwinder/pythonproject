@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 
 @app.route('/')
-//app starts here
+#app starts here
 def printTable(tableData):
     colWidths = [0]*len(tableData)
     for col in range(len(tableData)):
@@ -20,7 +20,7 @@ def printTable(tableData):
 tableData = [['apples', 'oranges', 'cherries', 'banana'], ['Alice', 'Bob', 'Carol', 'David']]
 printTable(tableData)
 
-//app ends here
+#app ends here
 
 if __name__ == '__main__':
     # gets Heroku's suggested port out of the environment dictionary if exists:
