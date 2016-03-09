@@ -7,12 +7,10 @@ app = Flask(__name__)
 @app.route('/')
 #app starts here
 
-
 def printHelloWorld()
-    print("<h1>hello world</h1>")
+    print("hello world")
 
 printHelloWorld()
-
 
 
 #app ends here
