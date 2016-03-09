@@ -11,7 +11,7 @@ app = Flask(__name__)
 def printHelloWorld()
     print("<h1>hello world</h1>")
 
-
+printHelloWorld()
 
 
 
