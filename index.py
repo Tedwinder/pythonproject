@@ -1,11 +1,11 @@
 
-from flask import Flask
-import os
+//from flask import Flask
+//import os
 
-app = Flask(__name__)
+//app = Flask(__name__)
 
 
-@app.route('/')
+//@app.route('/')
 
 def printTable(tableData):
     colWidths = [0]*len(tableData)
