@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 #app starts here
-/*def printTable(tableData):
+def printTable(tableData):
     colWidths = [0]*len(tableData)
     for col in range(len(tableData)):
         for row in range(len(tableData[0])):
@@ -15,11 +15,11 @@ app = Flask(__name__)
     for row in range(len(tableData[0])):
         for col in range(len(tableData)):
             print(tableData[col][row])
-        print("")
+        #print("")
 
 tableData = [['apples', 'oranges', 'cherries', 'banana'], ['Alice', 'Bob', 'Carol', 'David']]
 printTable(tableData)
-*/
+
 
 def printHelloWorld()
     print("hello world!")
