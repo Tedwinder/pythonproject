@@ -6,10 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 #app starts here
-def printHelloWorld()
-    print("hello world!")
-    
-printHelloWorld()
+
 
 def printTable(tableData):
     colWidths = [0]*len(tableData)
