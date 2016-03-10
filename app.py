@@ -18,7 +18,7 @@ def printTable(tableData):
             print(tableData[col][row].rjust(colWidths[col]))
         print("")
         
-tablePrinter = [1, 2, 3,4]
+tableData = [1, 2, 3,4]
 printTable(tableData)
 
 #app ends here b
