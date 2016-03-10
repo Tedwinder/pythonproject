@@ -5,8 +5,26 @@ app = Flask(__name__)
 
 #app begin
 @app.route('/')
-def index():
-    return "Hello, World!"
+
+
+
+def printTable(tableData):
+    colWidths = [0]*len(tableData)
+    for col in range(len(tableData)):
+        for row in range(len(tableData[0])):
+            if len(tableData[col][row]) > colWidths[col]:
+                colWidths[col] = len(tableData[col][row])
+    for row in range(len(tableData[0])):
+        for col in range(len(tableData)):
+            print(tableData[col][row])
+        print("")
+tableData = [['dan','jon','frank','sam'],['joe','me','oh','my']]
+
+
+printTable(tableData)
+    
+    
+    
 #app end
 
 if __name__ == '__main__':
