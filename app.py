@@ -4,9 +4,9 @@ import os
 app = Flask(__name__)
 
 
-@app.route('/')
-#app starts here
 
+#app starts here
+@app.route('/')
 def printTable(tableData):
     colWidths = [0]*len(tableData)
     for col in range(len(tableData)):
