@@ -4,14 +4,11 @@ import os
 app = Flask(__name__)
 
 
-
-#app starts here
 @app.route('/')
 def printHello()
     print("hello World")
 printHello()
 
-#app ends here b
 
 if __name__ == '__main__':
     # gets Heroku's suggested port out of the environment dictionary if exists:
