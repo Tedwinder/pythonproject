@@ -7,19 +7,9 @@ app = Flask(__name__)
 
 #app starts here
 @app.route('/')
-def printTable(tableData):
-    colWidths = [0]*len(tableData)
-    for col in range(len(tableData)):
-        for row in range(len(tableData[0])):
-            if len(tableData[col][row]) > colWidths[col]:
-                colWidths[col] = len(tableData[col][row])
-    for row in range(len(tableData[0])):
-        for col in range(len(tableData)):
-            print(tableData[col][row].rjust(colWidths[col]))
-        print("")
-        
-tableData = [1, 2, 3,4]
-printTable(tableData)
+def printHello()
+    print("hello World")
+printHello()
 
 #app ends here b
 
