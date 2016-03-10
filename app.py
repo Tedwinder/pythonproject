@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 def printHello():
    print("hello")
-printHello()
+return printHello()
     
     
     
